@@ -13,6 +13,7 @@
 		55F70A051BF5057500FAC9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F70A031BF5057500FAC9D8 /* Main.storyboard */; };
 		55F70A071BF5057500FAC9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F70A061BF5057500FAC9D8 /* Assets.xcassets */; };
 		55F70A0A1BF5057500FAC9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F70A081BF5057500FAC9D8 /* LaunchScreen.storyboard */; };
+		55F70A161BF5083B00FAC9D8 /* BeaconsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F70A151BF5083B00FAC9D8 /* BeaconsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		55F70A091BF5057500FAC9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F70A0B1BF5057500FAC9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55F70A111BF5071F00FAC9D8 /* AttendanceLog-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AttendanceLog-Bridging-Header.h"; sourceTree = "<group>"; };
+		55F70A151BF5083B00FAC9D8 /* BeaconsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconsManager.swift; sourceTree = "<group>"; };
 		685DF79B9E5E804B44C06F84 /* Pods_AttendanceLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AttendanceLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 			children = (
 				55F709FF1BF5057500FAC9D8 /* AppDelegate.swift */,
 				55F70A011BF5057500FAC9D8 /* ViewController.swift */,
+				55F70A171BF5084100FAC9D8 /* Managers */,
 				55F70A031BF5057500FAC9D8 /* Main.storyboard */,
 				55F70A061BF5057500FAC9D8 /* Assets.xcassets */,
 				55F70A081BF5057500FAC9D8 /* LaunchScreen.storyboard */,
@@ -80,6 +83,14 @@
 				55F70A111BF5071F00FAC9D8 /* AttendanceLog-Bridging-Header.h */,
 			);
 			path = AttendanceLog;
+			sourceTree = "<group>";
+		};
+		55F70A171BF5084100FAC9D8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				55F70A151BF5083B00FAC9D8 /* BeaconsManager.swift */,
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 		ACB910345751BA474DD6F3E7 /* Frameworks */ = {
@@ -217,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F70A161BF5083B00FAC9D8 /* BeaconsManager.swift in Sources */,
 				55F70A021BF5057500FAC9D8 /* ViewController.swift in Sources */,
 				55F70A001BF5057500FAC9D8 /* AppDelegate.swift in Sources */,
 			);
